@@ -13,9 +13,9 @@
                         <enabled>true</enabled>
                         <updatePolicy>always</updatePolicy>
                     </snapshots>
-                    <id>LINKS-BRMS-PROD</id>
-        <name>LINKS-BRMS-PROD</name>
-        <url>https://cicd-artifactoryoss-01.pcf-east.cvshealthcloud.com/artifactory/LINKS-BRMS-PROD</url>
+                    <id>LINKS-BRMS-DEV</id>
+        <name>LINKS-BRMS-DEV</name>
+        <url>https://cicd-artifactoryoss-01.pcf-east.cvshealthcloud.com/artifactory/LINKS-BRMS-DEV</url>
                 </repository>
             </repositories>
             <pluginRepositories>
@@ -28,9 +28,9 @@
                         <enabled>true</enabled>
                         <updatePolicy>always</updatePolicy>
                     </snapshots>
-                    <id>LINKS-BRMS-PROD</id>
-        <name>LINKS-BRMS-PROD</name>
-        <url>https://cicd-artifactoryoss-01.pcf-east.cvshealthcloud.com/artifactory/LINKS-BRMS-PROD</url>
+                    <id>LINKS-BRMS-DEV</id>
+        <name>LINKS-BRMS-DEV</name>
+        <url>https://cicd-artifactoryoss-01.pcf-east.cvshealthcloud.com/artifactory/LINKS-BRMS-DEV</url>
                 </pluginRepository>
             </pluginRepositories>
             <id>bintray</id>
@@ -41,9 +41,9 @@
     </activeProfiles>
     <servers>
       <server>
-         <id>LINKS-BRMS-PROD</id>
-         <username>api_links_artifactory_brms_prod</username>
-         <password>Ax+*prod*br8</password>
+         <id>LINKS-BRMS-DEV</id>
+         <username>api_links_artifactory_brms_dev</username>
+         <password>@1brmsDev</password>
       </server>
     </servers>
 </settings>
