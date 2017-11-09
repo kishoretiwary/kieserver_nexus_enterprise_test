@@ -42,8 +42,8 @@
     <servers>
       <server>
          <id>LINKS-BRMS-DEV</id>
-         <username>api_links_artifactory_brms_dev</username>
-         <password>@1brmsDev</password>
-      </server>
+          <username>${env.MVN_SERVER_USER}</username> 
+          <password>${env.MVN_SERVER_KEY}</password> 
+       </server>
     </servers>
 </settings>
