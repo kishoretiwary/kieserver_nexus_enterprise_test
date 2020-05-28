@@ -14,8 +14,8 @@
                         <updatePolicy>always</updatePolicy>
                     </snapshots>
                     <id>LINKS-BRMS-DEV</id>
-        <name>LINKS-BRMS-DEV</name>
-        <url>https://cicd-nexusenterprise-dev.cvshealth.com:8443/repository/LINKS-BRMS-PRD/</url>
+        <name>LINKS-BRMS-QA</name>
+        <url>https://cicd-nexusenterprise.cvshealth.com:8443/repository/LINKS-BRMS-QA/</url>
                 </repository>
             </repositories>
             <pluginRepositories>
@@ -29,8 +29,8 @@
                         <updatePolicy>always</updatePolicy>
                     </snapshots>
                     <id>LINKS-BRMS-DEV</id>
-        <name>LINKS-BRMS-DEV</name>
-        <url>https://cicd-nexusenterprise-dev.cvshealth.com:8443/repository/LINKS-BRMS-PRD/</url>
+        <name>LINKS-BRMS-QA</name>
+        <url>https://cicd-nexusenterprise.cvshealth.com:8443/repository/LINKS-BRMS-QA/</url>
                 </pluginRepository>
             </pluginRepositories>
             <id>bintray</id>
